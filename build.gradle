@@ -52,7 +52,7 @@ apply plugin: 'war'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'project-report'
-
+sourceCompatibility = 11
 
 //as pointed out by @facundofarias, we should validate minimum javac version
 task validate {
